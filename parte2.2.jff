@@ -291,6 +291,16 @@
 			<move tape="2">S</move>&#13;
 		</transition>&#13;
 		<transition>&#13;
+			<from>6</from>&#13;
+			<to>7</to>&#13;
+			<read tape="1"/>&#13;
+			<write tape="1"/>&#13;
+			<move tape="1">L</move>&#13;
+			<read tape="2"/>&#13;
+			<write tape="2"/>&#13;
+			<move tape="2">S</move>&#13;
+		</transition>&#13;
+		<transition>&#13;
 			<from>1</from>&#13;
 			<to>2</to>&#13;
 			<read tape="1"/>&#13;
